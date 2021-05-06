@@ -17,7 +17,7 @@ export class ProductController {
 
 	@Delete(':id')
 	async delete(@Param('id') id: string) {
-		
+
 	}
 
 	@Patch(':id')
@@ -28,6 +28,6 @@ export class ProductController {
 	@HttpCode(200)
 	@Post()
 	async find(@Body() dto: FindProductDto) {
-		
+
 	}
 }
